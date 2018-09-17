@@ -1,0 +1,24 @@
+[alias]
+	a = add
+	co = checkout
+	cob = checkout -b
+	ci = commit
+	cim = commit -m
+	ciam = commit --amend -m
+	b = branch
+	ba = branch -a
+	s = status
+	ss = status -s
+	d = diff
+	rb = rebase
+	mg = merge
+	cl = config -l
+	st = stash
+	stl = stash list
+	sta = stash apply
+	stp = stash pop
+	cp = cherry-pick
+	t = tag
+	ta = tag -a
+	g = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %C(cyan)%cn %Cred%d %Creset%s'
+	ga = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %C(cyan)%cn %Cred%d %Creset%s' --all
